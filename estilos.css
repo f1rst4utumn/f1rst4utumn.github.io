@@ -1,0 +1,129 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(253, 248, 254);
+    list-style: none;
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#navbarSupportedContent{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+.foto{
+width: 25vw;
+max-width: 500px;
+min-width: 320px;
+margin: auto;
+}
+
+
+.icon{
+    width: 25px;
+    height: 25px;
+}
+
+.foto-perfil{
+   width: 50%;
+   height: 70%;
+}
+
+#texto-soy {    
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 40px;
+    color: black;
+    font-size: 40px;
+    line-height: 40px;
+    
+   
+
+    
+    
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow:hidden;
+}
+
+#texto-soy li {
+    color: rgb(154, 44, 44);
+}
+
+#texto-soy ul{
+    list-style:none;
+    padding-left: 10px;
+
+    animation: cambiar 7s infinite;
+}
+    
+  
+
+#texto-soy ul, p {
+    margin: 0;
+}
+
+@keyframes cambiar {
+    0% {margin-top: 0;}
+    20% {margin-top: 0;}
+
+    25% {margin-top:-40px;}
+    50% {margin-top:-40px;}
+
+    55% {margin-top:-80px;}
+    80% {martin-top:-80px;}
+
+    85% {margin-top:-80px;}
+    95% {margin-top:-80px;}
+
+    100% {margin-top: 0px;}
+    
+}
+
+.nombre{
+    padding-top: 5%;
+}
+
+.datos-personales, .nombre{
+    
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.datos-personales{
+    padding-top: 1%;
+    font-size: 1.3em;
+}
+
+
+/*
+main{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+main li{
+    list-style:none;
+    font-size: larger
+}
+
+main div{
+    border-radius: 20%;
+}
+!--
