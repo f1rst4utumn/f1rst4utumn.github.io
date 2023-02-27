@@ -1,25 +1,23 @@
 *{
-    font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(253, 248, 254);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 239);
     list-style: none;
     scroll-behavior: smooth;
 }
-.navbar{
-    display: flex;
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
 
+header{
+    padding-top: 5%;
+    
 }
 
-#navbarSupportedContent{
-    display: flex;
-    justify-content: end;
-    align-items: center;
+.navbar {
+padding: 0.4%;    
 }
-
 
 .foto{
+display: flex;
+justify-content: center;
+align-items: center;
 width: 25vw;
 max-width: 500px;
 min-width: 320px;
@@ -43,13 +41,10 @@ margin: auto;
     width: 600px;
     height: 40px;
     color: black;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 40px;
     
-   
-
-    
-    
+     
     top: 0;
     right: 0;
     bottom: 0;
@@ -83,7 +78,7 @@ margin: auto;
     50% {margin-top:-40px;}
 
     55% {margin-top:-80px;}
-    80% {martin-top:-80px;}
+    80% {margin-top:-80px;}
 
     85% {margin-top:-80px;}
     95% {margin-top:-80px;}
@@ -110,8 +105,8 @@ margin: auto;
 }
 
 
-/*
 main{
+    padding-top: 2%;
     flex-direction: column;
     text-align: center;
     align-items: center;
@@ -126,4 +121,3 @@ main li{
 main div{
     border-radius: 20%;
 }
-!--
