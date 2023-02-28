@@ -1,8 +1,13 @@
 *{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgb(255, 255, 239);
+    background-color: rgb(255, 255, 255);
     list-style: none;
     scroll-behavior: smooth;
+}
+
+* ul {
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -11,8 +16,13 @@ header{
 }
 
 .navbar {
-padding: 0.4%;    
+padding: 10px;    
 }
+
+.container {
+    padding: 10px;
+}
+
 
 .foto{
 display: flex;
@@ -22,6 +32,7 @@ width: 25vw;
 max-width: 500px;
 min-width: 320px;
 margin: auto;
+    
 }
 
 
@@ -64,7 +75,6 @@ margin: auto;
     animation: cambiar 7s infinite;
 }
     
-  
 
 #texto-soy ul, p {
     margin: 0;
@@ -91,11 +101,13 @@ margin: auto;
     padding-top: 5%;
 }
 
+
 .datos-personales, .nombre{
     
     display:flex;
     justify-content:center;
     align-items: center;
+    text-align: center;
 
 }
 
@@ -105,12 +117,15 @@ margin: auto;
 }
 
 
+
+
 main{
     padding-top: 2%;
-    flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 main li{
@@ -118,6 +133,31 @@ main li{
     font-size: larger
 }
 
-main div{
-    border-radius: 20%;
+main h2{
+    padding-top: 10px;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container i{
+    font-size: 30px;
+    padding: 0 20px 0 20px;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.copy i{
+    margin: 0;
+    padding: 4px;
 }
