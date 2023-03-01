@@ -12,15 +12,25 @@
 
 header{
     padding-top: 5%;
-    
+    background-color:#3e1c33;
 }
 
 .navbar {
-padding: 10px;    
+padding: 10px;
+background-color: #3e1c33;    
+}
+
+.container-fluid, .navbar-brand, .navbar-toggler-icon{
+    background-color:#b14623;
 }
 
 .container {
     padding: 10px;
+    background-color:#3e1c33;
+}
+
+.row{
+    background-color:#3e1c33;
 }
 
 
@@ -32,6 +42,8 @@ width: 25vw;
 max-width: 500px;
 min-width: 320px;
 margin: auto;
+background-color:#3e1c33 ;
+
     
 }
 
@@ -44,6 +56,7 @@ margin: auto;
 .foto-perfil{
    width: 50%;
    height: 70%;
+   border-radius: 50px;
 }
 
 #texto-soy {    
@@ -51,9 +64,11 @@ margin: auto;
     justify-content: center;
     width: 600px;
     height: 40px;
-    color: black;
+    color: #b14623;
     font-size: 30px;
     line-height: 40px;
+    background-color:#3e1c33;
+   
     
      
     top: 0;
@@ -64,8 +79,12 @@ margin: auto;
     overflow:hidden;
 }
 
+#texto-soy li,p,ul,h2 {
+    background-color: #3e1c33;
+}
+
 #texto-soy li {
-    color: rgb(154, 44, 44);
+    color:#f6921d;
 }
 
 #texto-soy ul{
@@ -101,6 +120,9 @@ margin: auto;
     padding-top: 5%;
 }
 
+.nombre h1,li,i {
+    background-color: #f6921d;
+}
 
 .datos-personales, .nombre{
     
@@ -108,7 +130,7 @@ margin: auto;
     justify-content:center;
     align-items: center;
     text-align: center;
-
+    background-color: #f6921d;
 }
 
 .datos-personales{
@@ -126,6 +148,12 @@ main{
     justify-content: center;
     padding-left: 10px;
     padding-right: 10px;
+    background-color:#3e1c33;
+
+}
+
+.caja-main{
+    background-color:#3e1c33;
 }
 
 main li{
@@ -161,3 +189,4 @@ main h2{
     margin: 0;
     padding: 4px;
 }
+
