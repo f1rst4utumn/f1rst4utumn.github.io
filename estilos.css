@@ -1,6 +1,5 @@
 *{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgb(255, 255, 255);
     list-style: none;
     scroll-behavior: smooth;
 }
@@ -10,28 +9,33 @@
     padding: 0;
 }
 
-header{
-    padding-top: 5%;
-    background-color:#3e1c33;
+.navbar{
+    padding:0;
+
 }
 
-.navbar {
-padding: 10px;
-background-color: #3e1c33;    
+header {
+    margin: 0;
+    padding-top:80px;
+    background-image: url(/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 50px;
+   
 }
 
-.container-fluid, .navbar-brand, .navbar-toggler-icon{
-    background-color:#b14623;
+body {
+    margin: 0;
+    background-image: url(/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+   
 }
+ 
 
-.container {
-    padding: 10px;
-    background-color:#3e1c33;
-}
-
-.row{
-    background-color:#3e1c33;
-}
 
 
 .foto{
@@ -42,8 +46,7 @@ width: 25vw;
 max-width: 500px;
 min-width: 320px;
 margin: auto;
-background-color:#3e1c33 ;
-
+margin-bottom: 20px
     
 }
 
@@ -51,6 +54,7 @@ background-color:#3e1c33 ;
 .icon{
     width: 25px;
     height: 25px;
+
 }
 
 .foto-perfil{
@@ -67,7 +71,7 @@ background-color:#3e1c33 ;
     color: #b14623;
     font-size: 30px;
     line-height: 40px;
-    background-color:#3e1c33;
+    
    
     
      
@@ -80,11 +84,11 @@ background-color:#3e1c33 ;
 }
 
 #texto-soy li,p,ul,h2 {
-    background-color: #3e1c33;
+    line-height: 40px;
 }
 
 #texto-soy li {
-    color:#f6921d;
+   
 }
 
 #texto-soy ul{
@@ -97,6 +101,7 @@ background-color:#3e1c33 ;
 
 #texto-soy ul, p {
     margin: 0;
+    
 }
 
 @keyframes cambiar {
@@ -116,12 +121,12 @@ background-color:#3e1c33 ;
     
 }
 
-.nombre{
-    padding-top: 5%;
+.nombre h1{
+    margin-top: 10px;
 }
 
 .nombre h1,li,i {
-    background-color: #f6921d;
+    
 }
 
 .datos-personales, .nombre{
@@ -130,11 +135,10 @@ background-color:#3e1c33 ;
     justify-content:center;
     align-items: center;
     text-align: center;
-    background-color: #f6921d;
 }
 
 .datos-personales{
-    padding-top: 1%;
+    padding-top: 5px;
     font-size: 1.3em;
 }
 
@@ -142,23 +146,25 @@ background-color:#3e1c33 ;
 
 
 main{
-    padding-top: 2%;
+    padding-top: 5px;
     text-align: center;
     align-items: center;
     justify-content: center;
     padding-left: 10px;
-    padding-right: 10px;
-    background-color:#3e1c33;
+    padding-right: 10px;   
 
 }
 
 .caja-main{
-    background-color:#3e1c33;
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 main li{
     list-style:none;
-    font-size: larger
+    font-size: larger;
+    margin: 10px 0 10px 0;
 }
 
 main h2{
@@ -170,10 +176,12 @@ main h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px 0px 30px 0px;
 }
 
 .footer-container i{
-    font-size: 30px;
+    font-size: 40px;
+    color: #b14623;
     padding: 0 20px 0 20px;
 }
 
