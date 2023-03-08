@@ -3,35 +3,26 @@
     list-style: none;
     scroll-behavior: smooth;
 }
-
 * ul {
     margin: 0;
     padding: 0;
 }
 
 .navbar{
-    padding:0;
+    padding:10px 0 0 0;
 
 }
 
 header {
     margin: 0;
-    padding-top:80px;
-    background-image: url(/fondo1.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
-    background-attachment: fixed;
+    padding-top:50px;
     padding-bottom: 50px;
    
 }
 
+
 body {
     margin: 0;
-    background-image: url(/fondo2.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
    
 }
  
@@ -87,9 +78,6 @@ margin-bottom: 20px
     line-height: 40px;
 }
 
-#texto-soy li {
-   
-}
 
 #texto-soy ul{
     list-style:none;
@@ -125,9 +113,6 @@ margin-bottom: 20px
     margin-top: 10px;
 }
 
-.nombre h1,li,i {
-    
-}
 
 .datos-personales, .nombre{
     
@@ -156,9 +141,7 @@ main{
 }
 
 .caja-main{
-    position: relative;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 0 20px 0 20px;
 }
 
 main li{
@@ -170,6 +153,12 @@ main li{
 main h2{
     padding-top: 10px;
 }
+
+h1 {
+    text-align: center;
+    margin: 35px 0 20px 0 !important;
+  }
+  
 
 
 .footer-container {
